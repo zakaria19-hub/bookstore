@@ -1,0 +1,9 @@
+export { HomePage } from './HomePage';
+export { BooksPage } from './BooksPage';
+export { BookDetailPage } from './BookDetailPage';
+export { CategoriesPage } from './CategoriesPage';
+export { CategoryDetailPage } from './CategoryDetailPage';
+export { LoginPage } from './LoginPage';
+export { RegisterPage } from './RegisterPage';
+export { OrdersPage } from './OrdersPage';
+export { OrderDetailPage } from './OrderDetailPage';
