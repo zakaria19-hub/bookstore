@@ -2,12 +2,19 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .layout-main {
   flex: 1;
-  padding: 1.5rem 2rem;
-  max-width: 1200px;
+  padding: 2rem 1.25rem 3rem;
+  max-width: 1280px;
   margin: 0 auto;
   width: 100%;
+}
+
+@media (min-width: 768px) {
+  .layout-main {
+    padding: 2.5rem 2rem 4rem;
+  }
 }
